@@ -51,8 +51,8 @@ public class UserInterface {
 			{		    //Customer enters login details
 			  case '1': System.out.print("Enter your username: ");
 					    username = input.nextLine();
-					    System.out.println();
-					    System.out.print("Enter your password: ");
+					    
+					    System.out.print("\nEnter your password: ");
 					    password = input.nextLine();
 			
 					    //Verify login details
@@ -65,7 +65,7 @@ public class UserInterface {
 					    
 			  case '2': System.out.print("Enter your desired username: ");
 			  		    username = input.nextLine();
-			  		    System.out.println();
+			  		    
 			  		    System.out.print("Enter your desired password: ");
 			  		    password = input.nextLine();
 			  		  
@@ -138,8 +138,8 @@ public class UserInterface {
 			
 			System.out.print("Enter your username: ");
 		    username = input.nextLine();
-		    System.out.println();
-		    System.out.print("Enter your password: ");
+		    
+		    System.out.print("\nEnter your password: ");
 		    password = input.nextLine();
 		    
 		    //Verify login details
