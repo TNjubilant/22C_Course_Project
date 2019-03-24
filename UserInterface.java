@@ -149,7 +149,7 @@ public class UserInterface {
 		    
 		    //else continue asking for account details until user inputs valid info
 		    
-		    //Display menu options for customer
+		    //Display menu options for employee
 			do 
 			{
 				System.out.println("Choose from the following options.\n");
