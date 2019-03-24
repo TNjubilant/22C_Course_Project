@@ -17,7 +17,7 @@ public class UserInterface {
 		Character.toUpperCase(choice);
 		
 		//Allow user to keep entering a choice until input is valid
-		if (choice != 'A' && choice != 'R' && choice != 'X') 
+		if (choice != 'C' && choice != 'E') 
 		{
 			System.out.println("User choice was not a valid option. "
 			+ "Enter C or E only.");
